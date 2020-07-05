@@ -14,5 +14,5 @@ positivo, indica que los giros deben hacerse en sentido de las manecillas del re
 
 ejemplo 1:
 <p aling="center">
-  <img src="https://github.com/oscarsalazar8913/ruleta-api/blob/master/imagenes/1.%20crearRuleta.jpg">
+  <img src="https://github.com/oscarsalazar8913/ruletaGiro-api/blob/master/ruletaGiro-api/imagenes/prueba1.png">
 </p>
