@@ -14,13 +14,13 @@ para visualizar y probar el endpoint.
 Con este endpoint se realiza el giro de la matriz recibida como parametro y la cantidad de giros a realizar. Si el valor de N es
 positivo, indica que los giros deben hacerse en sentido de las manecillas del reloj. Si el valor es negativo, el giro deberá hacerse en sentido contrario a las manecillas del reloj.
 
-ejemplo 1:
+ejemplo 1: se realiza 2 giros en sentido de las manecillas del reloj.
 <p aling="center">
   <img src="https://github.com/oscarsalazar8913/ruletaGiro-api/blob/master/ruletaGiro-api/imagenes/prueba1.png">
 </p>
 
 
-ejemplo 2:
+ejemplo 2: se realiza 1 giro sentido contrario de las manecillas del reloj.
 <p aling="center">
   <img src="https://github.com/oscarsalazar8913/ruletaGiro-api/blob/master/ruletaGiro-api/imagenes/prueba2.png">
 </p>
