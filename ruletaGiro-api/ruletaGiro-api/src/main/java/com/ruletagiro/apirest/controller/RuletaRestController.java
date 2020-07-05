@@ -24,22 +24,21 @@ public class RuletaRestController {
 	
 	
 	@PostMapping(value = "/ruleta", consumes = "application/json", produces="application/json")
-//	@RequestMapping(value="ruleta",  method=RequestMethod.POST,consumes="application/json",produces="application/json")
-//	@ResponseBody
 	public ResponseEntity<String [][]> realizarGiroRuleta(@RequestBody Ruleta ruleta) 
 	{
+		String [][] matrizInicial = null;
+		String [][] newMatrix     = null;
+		int giros, sizeFilas, sizeColumnas  = 0;
 		
-		String [][] matrizInicial = ruleta.getMatriz();
-		String [][] newMatrix = null;
-		int f = matrizInicial.length;
-		int c = matrizInicial[0].length;
-		int n = 3;
+		matrizInicial = ruleta.getMatriz();
 		
+		giros  = ruleta.getGiros();
+		sizeFilas = matrizInicial.length;
+		sizeColumnas = matrizInicial[0].length;
 
 		
-		newMatrix  = ruletaService.girarRuleta(matrizInicial, n, f, c);
+		newMatrix  = ruletaService.girarRuleta(matrizInicial, giros, sizeFilas, sizeColumnas);
 		return  new ResponseEntity<>(newMatrix,HttpStatus.CREATED);
-//		return new ResponseBody <String [][]>(newMatrix,HttpStatus.CREATED);
 	}
 	
 }

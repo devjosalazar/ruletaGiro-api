@@ -9,6 +9,7 @@ public class Ruleta implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	private String id;
+	private int giros;
 	private String[][] matriz  = null;
 	
 	
@@ -38,6 +39,17 @@ public class Ruleta implements Serializable{
 
 	public void setMatriz(String[][] matriz) {
 		this.matriz = matriz;
+	}
+
+	
+
+	public int getGiros() {
+		return giros;
+	}
+
+
+	public void setGiros(int giros) {
+		this.giros = giros;
 	}
 
 
