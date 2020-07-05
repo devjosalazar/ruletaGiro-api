@@ -20,7 +20,7 @@ ejemplo 1: se realiza 2 giros en sentido de las manecillas del reloj.
 </p>
 
 
-ejemplo 2: se realiza 1 giro sentido contrario de las manecillas del reloj.
+ejemplo 2: se realiza 1 giro en sentido contrario de las manecillas del reloj.
 <p aling="center">
   <img src="https://github.com/oscarsalazar8913/ruletaGiro-api/blob/master/ruletaGiro-api/imagenes/prueba2.png">
 </p>
