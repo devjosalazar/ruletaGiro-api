@@ -8,9 +8,11 @@ Framework de desarrollo: Spring Boot
 A continuacion se muestran el endpoint desarrollado de acuerdo a las especificaciones de la prueba. Se utilizo Postman
 para visualizar y probar el endpoints.
 
-# Crear ruleta
-Con este endpoint se crea la ruleta sin parametros. Cuando se crea se retorna el Id de la ruleta. El estado incial de la ruleta es creado.
+# Realizar Giro Ruleta
+Con este endpoint se realiza el giro de la matriz recibida como parametro y la cantidad de giros a realizar. Si el valor de N es
+positivo, indica que los giros deben hacerse en sentido de las manecillas del reloj. Si el valor es negativo, el giro deberá hacerse en sentido contrario a las manecillas del reloj.
 
+ejemplo 1:
 <p aling="center">
   <img src="https://github.com/oscarsalazar8913/ruleta-api/blob/master/imagenes/1.%20crearRuleta.jpg">
 </p>
