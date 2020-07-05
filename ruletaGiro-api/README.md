@@ -7,8 +7,8 @@ Framework de desarrollo: Spring Boot
 
 Esta api recibe una matriz cuadrada o no cuadrada
 
-A continuacion se muestran el endpoint desarrollado de acuerdo a las especificaciones de la prueba. Se utilizo Postman
-para visualizar y probar el endpoints.
+A continuacion se muestra el endpoint desarrollado de acuerdo a las especificaciones de la prueba. Se utilizo Postman
+para visualizar y probar el endpoint.
 
 # Realizar Giro Ruleta
 Con este endpoint se realiza el giro de la matriz recibida como parametro y la cantidad de giros a realizar. Si el valor de N es
